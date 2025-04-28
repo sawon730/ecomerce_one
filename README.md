@@ -1,2 +1,0 @@
-# elecom
-elecom ecommerce practice
