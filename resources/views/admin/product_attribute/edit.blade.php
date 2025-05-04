@@ -1,6 +1,6 @@
 @extends('admin.layouts.layout')
 @section('admin_page_title')
-create category
+Edit Attribute
 @endsection
 
 @section('admin_layout')
@@ -8,12 +8,12 @@ create category
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <h5 class="card-title mb-0">Create Category</h5>
+                <h5 class="card-title mb-0">Edit Attribute</h5>
             </div>
             <div class="card-body">
                 {{-- have any error show below --}}           
         @if ($errors->any())
-            <div class="alert alert-danger">
+            <div class="alert alert-warning alert-dismissible fade show">
                 <ul>
                     @foreach ($errors->all() as $error)
                         <li>{{ $error }}</li>
@@ -23,21 +23,22 @@ create category
            @endif
      
            {{-- this below function for success message --}}
-            @if(session('success'))
+            @if(session('message'))
             <div class="alert alert-success">
-                {{session('success')}}
+                {{session('message')}}
             </div>
             @endif
 
-              <form action="{{route('store.cat')}}" method="post">
+              <form action="{{route('update.attribute', $attri_info->id)}}" method="post">
                   @csrf
-                  <label for="category_name" class="fw-bold mb-2">Give Name of Your Category</label>
-                  <input type="text" class="form-control" name="category_name" placeholder="computer">
-                  <button type="submit" class="btn btn-primary w-100 mt-2">Add Category</button>
+                  @method('PUT')
+                  <label for="attribute_value" class="fw-bold mb-2">Give Name of Your Attribute</label>
+                  <input type="text" class="form-control" name="attribute_value" value="{{$attri_info->attribute_value}}">
+                  <button type="submit" class="btn btn-primary w-100 mt-2">Update Attribute</button>
               </form>
             </div>
         </div>
-    </div>
+    </div>    
 </div>
     
 @endsection

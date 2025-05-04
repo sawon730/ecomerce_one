@@ -4,5 +4,5 @@
 @endsection
 
 @section('seller_layout')
-   Create prodrct
+  <livewire:category-subcategory/>
 @endsection
