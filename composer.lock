@@ -9145,7 +9145,11 @@
     "aliases": [],
     "minimum-stability": "stable",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "stability-flags": [],
+=======
+    "stability-flags": {},
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 =======
     "stability-flags": {},
 >>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
@@ -9155,7 +9159,11 @@
         "php": "^8.2"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "platform-dev": [],
+=======
+    "platform-dev": {},
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 =======
     "platform-dev": {},
 >>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4

@@ -2,7 +2,10 @@
 use App\Http\Controllers\Admin\AdminMainController;
 use App\Http\Controllers\Customer\CustomerMainController;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\HomePageController;
+=======
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 =======
 >>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 use App\Http\Controllers\MasterCategoryController;
@@ -17,6 +20,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Seller\SellerProductController;
 use App\Http\Controllers\Seller\SellerStoreController;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Livewire\HomepageComponent;
 use Illuminate\Support\Facades\Route;
 
@@ -27,11 +31,16 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 =======
+=======
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
+=======
 >>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 
 
@@ -42,6 +51,7 @@ Route::get('/', function () {
 // })->middleware(['auth', 'verified','rolemanager:customer'])->name('dashboard');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // 08/05/25 add below
 Route::controller(HomePageController::class)->group(function () {
     Route::get('/', 'index')->name('home');
@@ -49,6 +59,8 @@ Route::controller(HomePageController::class)->group(function () {
  });
 
 
+=======
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 =======
 >>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 
@@ -128,8 +140,11 @@ Route::middleware(['auth', 'verified', 'rolemanager:vendor'])->group(function ()
         Route::controller(SellerProductController::class)->group(function () {
             Route::get('/product/create', 'index')->name('vendor.product');
 <<<<<<< HEAD
+<<<<<<< HEAD
             // add this below line 5/5/25
             Route::post('/product/store', 'storeproduct')->name('vendor.product.store');
+=======
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 =======
 >>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
             Route::get('/product/manage', 'manage')->name('vendor.product.manage');

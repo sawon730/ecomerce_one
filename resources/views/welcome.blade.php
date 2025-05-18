@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Home Page
 php artisan make:livewire HomepageComponent
 =======
+=======
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -279,4 +282,7 @@ php artisan make:livewire HomepageComponent
         @endif
     </body>
 </html>
+<<<<<<< HEAD
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
+=======
 >>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4

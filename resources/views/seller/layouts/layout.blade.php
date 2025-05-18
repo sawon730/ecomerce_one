@@ -33,7 +33,11 @@
 					<li class="sidebar-item {{request()->routeIs('vendor')?'active':''}}">
 						<a class="sidebar-link" href="{{route('vendor')}}">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Seller Dashboard</span>
+=======
+                        <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 =======
                         <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
 >>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4

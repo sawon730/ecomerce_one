@@ -1,6 +1,7 @@
 @extends('seller.layouts.layout')
 @section('seller_page_title')
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seller Manage Product
 @endsection
 
@@ -57,10 +58,16 @@ Seller Manage Product
 @endsection
 
 =======
+=======
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
       Manage Product
 @endsection
 
 @section(section: 'seller_layout')
       Manage Product
+<<<<<<< HEAD
+@endsection
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
+=======
 @endsection
 >>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4

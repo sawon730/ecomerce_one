@@ -1,6 +1,7 @@
 @extends('seller.layouts.layout')
 @section('seller_page_title')
 <<<<<<< HEAD
+<<<<<<< HEAD
    Add prodrct
 @endsection
 
@@ -90,10 +91,15 @@
 </div>
 
 =======
+=======
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
    Create prodrct
 @endsection
 
 @section('seller_layout')
   <livewire:category-subcategory/>
+<<<<<<< HEAD
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
+=======
 >>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 @endsection

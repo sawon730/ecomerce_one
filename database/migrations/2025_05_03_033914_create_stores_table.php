@@ -20,9 +20,13 @@ return new class extends Migration
             $table->timestamps();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // $table->foreign('user_id')->references('id')->on('users')->onDelete('cascad');
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
 
+=======
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascad');
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 =======
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascad');
 >>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
