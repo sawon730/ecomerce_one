@@ -9144,12 +9144,20 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
+<<<<<<< HEAD
     "stability-flags": [],
+=======
+    "stability-flags": {},
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
+<<<<<<< HEAD
     "platform-dev": [],
+=======
+    "platform-dev": {},
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
     "plugin-api-version": "2.6.0"
 }

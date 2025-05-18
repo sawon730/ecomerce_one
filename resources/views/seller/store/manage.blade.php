@@ -37,9 +37,17 @@ Seller Manage Store
                                 <td>{{$store->slug}}</td>
                                 <td>{{$store->details}}</td>
                                 <td>
+<<<<<<< HEAD
                                     <a href="" class="btn btn-info">Edit</a>
                                     {{-- {{route('delete.store', $store->id)}} --}}
                                <form action="" method="POST">
+=======
+                                    {{-- {{route('create.store', $store->id)}}
+                                    {{route('delete.store', $store->id)}} --}}
+                                    <a href="" class="btn btn-info">Edit</a>
+
+                               <form action="" method="post">
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
                                 @csrf
                                 @method('DELETE')
                                 <input type="submit" value="Delete" class="btn btn-danger">

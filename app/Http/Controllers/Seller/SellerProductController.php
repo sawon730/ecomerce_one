@@ -3,16 +3,20 @@
 namespace App\Http\Controllers\Seller;
 
 use App\Http\Controllers\Controller;
+<<<<<<< HEAD
 use App\Models\Product;
 use App\Models\ProductImage;
 use App\Models\Store;
 use GuzzleHttp\Promise\Create;
 use Illuminate\Support\Facades\Auth;
+=======
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
 use Illuminate\Http\Request;
 
 class SellerProductController extends Controller
 {
     public function index(){
+<<<<<<< HEAD
         $authuserid = Auth::id();
         $stores = Store::where('user_id', $authuserid)->get();
         return view('seller.product.create', compact('stores'));
@@ -87,3 +91,11 @@ class SellerProductController extends Controller
 // return view('seller.product.create', compact('stores'));
 
 
+=======
+        return view('seller.product.create');
+    }
+    public function manage(){
+        return view('seller.product.manage');
+    }
+}
+>>>>>>> 110997d776896d3591ccdd5dbb17958366d915b4
